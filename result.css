@@ -43,7 +43,7 @@
 
 body{
 
-	background-color:#8F8794;
+	background-color:#E0E0E0;
 }
 li, a, button{
 	font-family: "Montserrat", sans-serif;
@@ -74,4 +74,27 @@ li, a, button{
 	padding: 15px 0px;
 	color: white;
 	cursor: pointer;
+}
+
+table td {
+	border: 2px solid black;
+	padding: 7px;
+	padding-right: 500px;
+	border-radius: 5px;
+	border-color: #A0A0A0;
+}
+table td span{
+	color: #5A0CB3;
+	font-weight: 900;
+}
+img{
+	margin-top: 15px;
+	margin-left: 10px;
+
+}
+.bgc{
+	background-color: black;
+	color: white;
+	padding: 15px 0px;
+
 }

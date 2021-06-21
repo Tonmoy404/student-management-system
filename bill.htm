@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<title>Student Management System</title>
 	<link rel="stylesheet"  href="main.css">
+	<link rel="stylesheet" type="text/css" href="bill.css">
+	<link rel="icon" href="images/logo.png">
 </head>
 <body>
 	<div class="header">
 		<div class="logo">
 			<h2>Student <span>Management </span> System</h2>
-			<p>Logout</p>
+			<a href="file:///D:/HTML--CSS/Student%20Management%20System/login.htm?"><p>Logout</p></a>
 		</div>
 	</div>
 	<div class="navbar">
@@ -19,10 +21,41 @@
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/result.htm">Result</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/admin.htm">Admin</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/notice.htm">Notice</a></li>
-				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/bill.htm">Bill/Payment</a></li>
+				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/bill.htm" class="bgc">Bill/Payment</a></li>
 			</ul>
 			
 		</div>
-		bill
+		<div class="box">
+			<table>
+				<tr>
+					<td><span>Student ID: </span>69696969</td>
+				</tr>
+				<tr>
+					<td><span>Student Name:</span> XYZ Rahman</td>
+				</tr>
+				<tr>
+					<td><span>Batch: </span>47</td>
+				</tr>
+				<tr>
+					<td><span>Department:</span>  CSE</td>
+				</tr>
+			</table>
+		</div>
+		<br><br><br><br><br><br><br><br><br>
+		<div class="pay">
+			<p style="color: #006666; font-size: 25px; text-shadow: none; font-weight: 1000; margin-left: 8px;" >Payment History</p>
+			<h4><span>Total  Fee:</span> 82911.00</h4>
+			<h4><span>Total paid:</span> 75411.00</h4>
+			<h4><span>Remaining :</span> 7500.00 [Due]</h4>
+			<br> <br>
+			<p><span>Semester Spring 2021 Payable :</span> 25550.00</p>
+			<p><span>Semester Spring 2021 Paid	:</span> 18000.00</p>
+			<p><span>Last Date: </span>04-07-2021</p>	
+		</div> <br>
+		<div class="online">
+			<h4><u>Online Payment</u></h4>
+			I want to pay ৳:<input type="number" placeholder="00.0" name="pay"><br>
+			<button>Pay Online</button>
+		</div>
 </body>
 </html>

@@ -40,10 +40,16 @@
 	font-weight: 800px;
 	color: red;
 }
+.bgc{
+	background-color: black;
+	color: white;
+	padding: 15px 0px;
+
+}
 
 body{
 
-	background-color:#8F8794;
+	background-color:#E0E0E0;
 }
 li, a, button{
 	font-family: "Montserrat", sans-serif;
@@ -74,4 +80,61 @@ li, a, button{
 	padding: 15px 0px;
 	color: white;
 	cursor: pointer;
+}
+table td {
+	border: 2px solid black;
+	padding: 7px;
+	padding-right: 500px;
+	border-radius: 5px;
+	border-color: #A0A0A0;
+}
+table td span{
+	color: #5A0CB3;
+	font-weight: 900;
+}
+
+.pay h4 span{
+	color: red;
+	margin-left: 8px;
+	font-size: 20px;
+}
+
+.pay p{
+	font-size: 18px;
+	color: #404040;
+	text-shadow: none;
+	font-weight: 700;
+
+}
+.pay p span{
+	font-size: 20px;
+	color: #003366;
+	text-shadow: none;
+	font-weight: 800;
+	margin-left: 8px;
+}
+.online h4{
+	font-weight: 800;
+	font-family: sans-serif;
+	color: #331900;
+	text-decoration: underline;
+	font-size: 25px;
+	margin-left: 8px;
+}
+.online{
+	color: #003366;
+	font-size:20px;
+	margin-left: 8px;
+	font-weight: 500;
+}
+.online input[type=number]{
+	padding: 14px;
+	border: 2px solid black;
+}
+.online button{
+	padding: 8px;
+	font-size: 10px;
+	margin-left: 255px;
+	color: black;
+	background-color: #5a92ed;
 }

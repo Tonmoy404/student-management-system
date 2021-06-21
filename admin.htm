@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<title>Student Management System</title>
 	<link rel="stylesheet"  href="main.css">
+	<link rel="stylesheet" type="text/css" href="admin.css">
+	<link rel="icon" href="images/logo.png">
 </head>
 <body>
 	<div class="header">
 		<div class="logo">
 			<h2>Student <span>Management </span> System</h2>
-			<p>Logout</p>
+			<a href="file:///D:/HTML--CSS/Student%20Management%20System/login.htm?"><p>Logout</p></a>
 		</div>
 	</div>
 	<div class="navbar">
@@ -17,11 +19,20 @@
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/main.htm">Home</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/course.htm">Course</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/result.htm">Result</a></li>
-				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/admin.htm">Admin</a></li>
+				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/admin.htm" class="bgc">Admin</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/notice.htm">Notice</a></li>
 				<li><a href="file:///D:/HTML--CSS/Student%20Management%20System/bill.htm">Bill/Payment</a></li>
 			</ul>	
 		</div>
-		admin
+		<div class="admin">
+			<p>Password Change (User)</p><br>
+			<pre><span>Message: </span> Password must contain eight(8) digits including at least one uppercase alphabet, one lowercase alphabet and one number..</pre>
+			<br><br>
+			<pre><h4>Current(Password)   : <input type="Password" placeholder="Current Password" required></h4>
+				 <h4>Type(New Password): <input type="Password" placeholder="New Password" required></h4>
+				 <h4>Retype(Password)    :  <input type="Password" placeholder="Retype New Password" required></h4>
+			</pre>
+			<button type="submit" value="Update">Update</button>
+		</div>
 </body>
 </html>

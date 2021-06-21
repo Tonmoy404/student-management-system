@@ -43,7 +43,7 @@
 
 body{
 
-	background-color:#8F8794;
+	background-color:#E0E0E0;
 }
 li, a, button{
 	font-family: "Montserrat", sans-serif;
@@ -75,6 +75,18 @@ li, a, button{
 	color: white;
 	cursor: pointer;
 }
-.content{
-	align-items: center;
+.cnt{
+	
+	margin-left: 300px;
+}
+
+.bgc{
+	background-color: black;
+	color: white;
+	padding: 15px 0px;
+
+}
+img{
+	margin-top: 15px;
+
 }
